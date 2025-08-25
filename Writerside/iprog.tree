@@ -7,4 +7,8 @@
                  start-page="starter-topic.md">
 
     <toc-element topic="starter-topic.md"/>
+    <toc-element toc-title="Programación por Computadora">
+        <toc-element topic="background.md"/>
+        <toc-element topic="components.md"/>
+    </toc-element>
 </instance-profile>
