@@ -1,79 +1,50 @@
-# About Introducción a la Programación
+# ¡Bienvenidos a «Introducción a la Programación»!
 
-<!--Writerside adds this topic when you create a new documentation project.
-You can use it as a sandbox to play with Writerside features, and remove it from the TOC when you don't need it anymore.-->
+Este es un espacio dedicado a todos aquellos que desean aprender a programar desde cero, sin importar su nivel de
+experiencia previa. Aquí encontrarás recursos, tutoriales y consejos para comenzar tu viaje en el mundo de la
+programación.
 
-## Add new topics
-You can create empty topics, or choose a template for different types of content that contains some boilerplate structure to help you get started:
+## Competencia de la Asignatura
 
-![Create new topic options](new_topic_options.png){ width=290 }{border-effect=line}
+Desarrolla pDesarrolla programas para el control de dispositivos en los sistemas electromecánicos considerando
+interfaces gráficas.
 
-## Write content
-%product% supports two types of markup: Markdown and XML.
-When you create a new help article, you can choose between two topic types, but this doesn't mean you have to stick to a single format.
-You can author content in Markdown and extend it with semantic attributes or inject entire XML elements.
+## Contenidos
 
-## Inject XML
-For example, this is how you inject a procedure:
+A lo largo de este curso, exploraremos las siguientes unidades temáticas:
 
-<procedure title="Inject a procedure" id="inject-a-procedure">
-    <step>
-        <p>Start typing and select a procedure type from the completion suggestions:</p>
-        <img src="completion_procedure.png" alt="completion suggestions for procedure" border-effect="line"/>
-    </step>
-    <step>
-        <p>Press <shortcut>Tab</shortcut> or <shortcut>Enter</shortcut> to insert the markup.</p>
-    </step>
-</procedure>
+1. **Introducción a la programación por computadora**: Conocer el entorno de la programación aplicando en la solución de
+   problemas la representación gráfica de los algoritmos.
+2. **El lenguaje y su entorno integrado de desarrollo**: Emplear los conceptos y terminologías básicas de la
+   programación.
+3. **Estructuras de control**: Aplicar estructuras de control en la solución de problemas.
+4. **Arreglos**: Utilizar arreglos en la solución de problemas.
+5. **Programación Modular**: Emplear la programación modular en la solución de problemas.
+6. **Programación de Interfaz Gráfica de Usuario (GUI)**: Desarrollar aplicaciones con interfaces gráficas de usuario.
 
-## Add interactive elements
+> Cada uno de estos temas incluirá teoría, ejemplos prácticos y ejercicios para reforzar el aprendizaje.
+> {style="note"}
 
-### Tabs
-To add switchable content, you can make use of tabs (inject them by starting to type `tab` on a new line):
+## ¿Cuales serán los criterios de evaluación?
 
-<tabs>
-    <tab title="Markdown">
-        <code-block lang="plain text">![Alt Text](new_topic_options.png){ width=450 }</code-block>
-    </tab>
-    <tab title="Semantic markup">
-        <code-block lang="xml">
-            <![CDATA[<img src="new_topic_options.png" alt="Alt text" width="450px"/>]]></code-block>
-    </tab>
-</tabs>
+Los criterios de evaluación para las primeras tres unidades temáticas serán los siguientes:
 
-### Collapsible blocks
-Apart from injecting entire XML elements, you can use attributes to configure the behavior of certain elements.
-For example, you can collapse a chapter that contains non-essential information:
+| Criterio              | Descripción                                                                       | Peso |
+|-----------------------|-----------------------------------------------------------------------------------|------|
+| Actividades prácticas | Realización de ejercicios y proyectos prácticos relacionados con la Programación. | 40%  |
+| Exámenes teóricos     | Evaluación teórico-práctica sobre los conceptos y principios de la Programación.  | 60%  |
 
-#### Supplementary info {collapsible="true"}
-Content under a collapsible header will be collapsed by default,
-but you can modify the behavior by adding the following attribute:
-`default-state="expanded"`
+Los criterios de evaluación para las últimas tres unidades temáticas serán los siguientes:
 
-### Convert selection to XML
-If you need to extend an element with more functions, you can convert selected content from Markdown to semantic markup.
-For example, if you want to merge cells in a table, it's much easier to convert it to XML than do this in Markdown.
-Position the caret anywhere in the table and press <shortcut>Alt+Enter</shortcut>:
+| Criterio              | Descripción                                                                       | Peso |
+|-----------------------|-----------------------------------------------------------------------------------|------|
+| Actividades prácticas | Realización de ejercicios y proyectos prácticos relacionados con la Programación. | 20%  |
+| Exámenes teóricos     | Evaluación teórico-práctica sobre los conceptos y principios de la Programación.  | 80%  |
 
-<img src="convert_table_to_xml.png" alt="Convert table to XML" width="706" border-effect="line"/>
+> La evaluación se realizará de manera continua a lo largo del curso, teniendo en cuenta tanto las actividades
+> prácticas como los exámenes teóricos. Así mismo, se fomentará la participación activa en clase y el trabajo en equipo.
+> {style="note"}
 
-## Feedback and support
-Please report any issues, usability improvements, or feature requests to our
-<a href="https://youtrack.jetbrains.com/newIssue?project=WRS">YouTrack project</a>
-(you will need to register).
-
-You are welcome to join our
-<a href="https://jb.gg/WRS_Slack">public Slack workspace</a>.
-Before you do, please read our [Code of conduct](https://www.jetbrains.com/help/writerside/writerside-code-of-conduct.html).
-We assume that you’ve read and acknowledged it before joining.
-
-You can also always email us at [writerside@jetbrains.com](mailto:writerside@jetbrains.com).
-
-<seealso>
-    <category ref="wrs">
-        <a href="https://www.jetbrains.com/help/writerside/markup-reference.html">Markup reference</a>
-        <a href="https://www.jetbrains.com/help/writerside/manage-table-of-contents.html">Reorder topics in the TOC</a>
-        <a href="https://www.jetbrains.com/help/writerside/local-build.html">Build and publish</a>
-        <a href="https://www.jetbrains.com/help/writerside/configure-search.html">Configure Search</a>
-    </category>
-</seealso>
+> Algunos temas serán evaluados en conjunto, es decir, se evaluarán varios temas en un solo examen o actividad
+> práctica.
+> {style="note"}
