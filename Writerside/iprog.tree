@@ -11,4 +11,15 @@
         <toc-element topic="background.md"/>
         <toc-element topic="components.md"/>
     </toc-element>
+    <toc-element toc-title="Algoritmos">
+        <toc-element topic="algoritmo.md"/>
+        <toc-element topic="pseudocodigo.md"/>
+        <toc-element topic="algoritmo-basic.md"/>
+        <toc-element topic="diagrama.md"/>
+        <toc-element toc-title="Estructuras de los algoritmos">
+            <toc-element topic="desicion-algoritmo.md"/>
+            <toc-element topic="encaso.md"/>
+            <toc-element topic="loop.md"/>
+        </toc-element>
+    </toc-element>
 </instance-profile>
