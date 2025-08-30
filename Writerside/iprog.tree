@@ -22,4 +22,10 @@
             <toc-element topic="loop.md"/>
         </toc-element>
     </toc-element>
+    <toc-element toc-title="Ejemplos">
+        <toc-element topic="ejemplo-1.md"/>
+    </toc-element>
+    <toc-element toc-title="Ejercicios">
+        <toc-element topic="ejercicio-1.md"/>
+    </toc-element>
 </instance-profile>
