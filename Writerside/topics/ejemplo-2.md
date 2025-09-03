@@ -115,3 +115,58 @@ Definición de Variables:
                     HASTA QUE contador >= numeroElementos
 6. FIN
 ```
+
+### Diagrama de flujo
+
+```d2
+vars: {
+  d2-config: {
+        layout-engine: dagre
+    sketch: true
+  }
+}
+A:"Inicio"{shape: oval}
+B:anterior1 = 0, anterior2 = 1{shape: rectangle}
+C:"\"Ingrese el número de elementos de la serie Fibonacci que desea generar:\""{shape: document}
+D:numeroElementos{shape: parallelogram}
+E:numeroElementos <= 0{shape: diamond}
+F:"\"El número de elementos debe ser mayor que cero.\""{shape: document}
+G:numeroElementos == 1{shape: diamond}
+H:anterior1{shape: document}
+I:anterior1{shape: document}
+J:anterior2{shape: document}
+K:contador = 2{shape: rectangle}
+L:contador < numeroElementos{shape: diamond}
+M:actual = anterior1 + anterior2{shape: rectangle}
+N:actual{shape: document}
+O:anterior1 = anterior2{shape: rectangle}
+P:anterior2 = actual{shape: rectangle}
+Q:contador = contador + 1{shape: rectangle}
+R:""{
+    shape: circle
+    width: 30
+    height: 30
+    }
+S:""{
+    shape: circle
+    width: 30
+    height: 30
+    }
+T:"Fin"{shape: oval}
+
+
+A -> B -> C -> D
+D -> E
+E -> F: Sí
+E -> G: No
+G -> H: Sí
+G -> I: No
+I -> J -> K -> L
+L -> M: Sí
+M -> N -> O -> P -> Q -> L
+L -> R: No
+R -> S
+H -> R
+F -> S
+S -> T
+```
