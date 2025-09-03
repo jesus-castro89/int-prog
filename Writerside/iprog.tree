@@ -14,6 +14,7 @@
     <toc-element toc-title="Algoritmos">
         <toc-element topic="algoritmo.md"/>
         <toc-element topic="pseudocodigo.md"/>
+        <toc-element topic="componentes-pseudocodigo.md"/>
         <toc-element topic="algoritmo-basic.md"/>
         <toc-element topic="diagrama.md"/>
         <toc-element toc-title="Estructuras de los algoritmos">
