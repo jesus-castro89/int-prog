@@ -23,6 +23,12 @@
             <toc-element topic="loop.md"/>
         </toc-element>
     </toc-element>
+    <toc-element toc-title="Lenguajes de Programación">
+        <toc-element topic="lenguaje-int.md"/>
+        <toc-element topic="estructura-programa.md"/>
+        <toc-element topic="estructurada.md"/>
+        <toc-element topic="poo.md"/>
+    </toc-element>
     <toc-element toc-title="Ejemplos">
         <toc-element topic="ejemplo-1.md"/>
         <toc-element topic="ejemplo-2.md"/>

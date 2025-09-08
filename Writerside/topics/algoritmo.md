@@ -48,6 +48,8 @@ que proporcionan un método sistemático para procesar datos y obtener resultado
 10. **Algoritmos de backtracking**: Utilizados para resolver problemas de búsqueda mediante la exploración de todas las
     posibles soluciones y retrocediendo cuando se encuentra una solución no válida. Ejemplos: problema de las N reinas,
     Sudoku.
+11. **Algoritmos núméricos**: Utilizados para realizar cálculos matemáticos y resolver problemas numéricos. Ejemplos:
+    método de Newton-Raphson, integración numérica.
 
 ## Representación de algoritmos
 
