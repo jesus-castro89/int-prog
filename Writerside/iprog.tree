@@ -29,6 +29,13 @@
         <toc-element topic="estructurada.md"/>
         <toc-element topic="poo.md"/>
     </toc-element>
+    <toc-element toc-title="Programando en Java">
+        <toc-element topic="java-introduction.md"/>
+        <toc-element topic="java-types.md"/>
+        <toc-element topic="operaciones.md"/>
+        <toc-element topic="output.md"/>
+        <toc-element topic="input.md"/>
+    </toc-element>
     <toc-element toc-title="Ejemplos">
         <toc-element topic="ejemplo-1.md"/>
         <toc-element topic="ejemplo-2.md"/>

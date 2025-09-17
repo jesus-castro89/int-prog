@@ -1,35 +1,31 @@
-# ejemplo-4
+# Ejemplo 4: Cálculo de IMC en Java
 
-El banco “Pueblo desconocido” ha decidido aumentar el límite de crédito de
-las tarjetas de crédito de sus clientes, para esto considera que si su cliente
-tiene tarjeta tipo 1, el aumento será de 25 %; si tiene tipo 2, será de 35 %;
-si tiene tipo 3, de 40 %, y para cualquier otro tipo, de 50 %. Ahora bien, si la
-persona cuenta con más de una tarjeta, sólo se considera la de tipo mayor
-o la que el cliente indique. 
+## Descripción
 
+El Índice de Masa Corporal (IMC) es una medida utilizada para evaluar si una persona tiene un peso saludable en relación
+con su altura. El IMC se calcula utilizando la fórmula:
+
+```tex
+IMC = \frac{peso (kg)}{altura (m)^2}
 ```
-AumentoCredito
 
-Definición de Variables:
-    Logico: variasTarjetas
-    Entero: tipoTarjeta
-    Real: lineaCredito
+Escribe un programa en Java que solicite al usuario su peso en kilogramos y su altura en metros, y luego calcule y
+muestre su IMC.
 
-1. Inicio
-2. Escribir "¿Cuenta con más de una tarjeta?"
-3. Leet variasTarjetas
-4. Si variasTarjetas
-    Entonces
-        Inicio
-            Escribir "Ingrese el tipo de tarjeta que desea usar para el aumento"
-            Leer tipoTarjeta
-            Escribir "Ingrese el limite de credito de dicha tarjeta"
-            Leer lineaCredito
-        Fin
-    En otro caso
-        Inicio
-            Escribir "Ingrese su tipo de tarjeta"
-            Leer tipoTarjeta
-            Escribir "Ingrese su limite de credito"
-            Leer lineaCredito
-        Fin
+## Desarrollo
+
+![ejemplo-4.png](ejemplo-4.png){style="block"}
+
+## ¿Cómo funciona el código?
+
+1. **Importación de la clase Scanner**: Se importa la clase `Scanner` del paquete `java.util` para permitir la lectura
+   de datos desde la entrada estándar (teclado).
+2. **Creación de la clase y el método principal**: Se define la clase `CalculoIMC` y el método `main`, que es el punto
+   de
+   entrada del programa.
+3. **Creación del objeto Scanner**: Se crea un objeto `Scanner` llamado `scanner` para leer la entrada del usuario.
+4. **Solicitud de datos al usuario**: Se solicita al usuario que ingrese su peso y altura, y se almacenan en las
+   variables `peso` y `altura`.
+5. **Cálculo del IMC**: Se calcula el IMC utilizando la fórmula proporcionada y se almacena en la variable `imc`.
+6. **Mostrar el resultado**: Se muestra el IMC calculado con dos decimales utilizando `System.out.printf`.
+7. **Cierre del scanner**: Se cierra el objeto `scanner` para liberar los recursos.
