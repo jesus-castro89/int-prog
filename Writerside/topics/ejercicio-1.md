@@ -6,11 +6,62 @@ Lee atentamente cada uno de los siguientes problemas y realiza el pseudocódigo 
 para cada uno de ellos.
 
 1. La política de la compañía telefónica “chimefón” es: “Chismea + x -”. Cuando se realiza una llamada, el cobro es por
-   el tiempo que durará, de tal forma que los primeros cinco minutos cuestan **_$ 1.00 c/u_**, los siguientes tres, *
-   *_80¢_**c/u, los siguientes dos minutos, **_70¢ c/u_**, y a partir del décimo minuto, 50¢ c/u. Además, se carga un
+   el tiempo que durará, de tal forma que los primeros cinco minutos cuestan **_$ 1.00 c/u_**, los siguientes tres,
+   **_80¢ c/u_**, los siguientes dos minutos, **_70¢ c/u_**, y a partir del décimo minuto, 50¢ c/u. Además, se carga un
    impuesto de **3 %**cuando es domingo, y si es día hábil, en turno matutino, **15 %**, y en turno vespertino,
    **10 %**. Realice un algoritmo para determinar cuánto debe pagar por cada concepto una persona que realiza una
    llamada.
+    * ```
+        CostoLlamada
+
+        Definir Constantes
+        Real: c2=0.8, c3=0.7, c4=0.5
+        
+        Definir Variables
+        Entero: minutos
+        Real: total
+        Lógico: esHabil, esDomingo, esMatutino
+        
+        1. INICIO
+           2. ESCRIBIR "Ingrese la cantidad de minutos de la llamada"
+           3. LEER minutos
+           4. SI minutos <= 5
+              ENTONCES
+              HACER total = minutos
+              EN OTRO CASO
+              SI minutos <= 8
+              ENTONCES
+              total = 5 + ((minuto - 5) * c2)
+              EN OTRO CASO
+              SI minutos <= 10
+              ENTONCES
+              total = 7.4 + ((minutos - 8) * c3)
+              EN OTRO CASO
+              total = 8.8 + ((minutos - 10) * c4)
+           5. ESCRIBIR "La llamada fue en día hábil?"
+           6. LEER esHabil
+           7. SI esHabil
+              ENTONCES
+              INICIO
+              ESCRIBIR "La llamada fue en la mañana?"
+              LEER esMatutino
+              SI esMatutino
+              ENTONCES
+              total *= 1.15
+              EN OTRO CASO
+              total *= 1.10
+              FIN
+              EN OTRO CASO
+              INICIO
+              ESCRIBIR "La llamada fue en domingo?"
+              LEER esDomingo
+              SI esDomingo
+              ENTONCES
+              total *= 1.03
+              FIN
+           8. ESCRIBIR "El total de tu llamada es de: ", total
+           9. FIN
+      ```
 2. Una compañía de viajes cuenta con tres tipos de autobuses (A, B y C), cada uno tiene un precio por kilómetro
    recorrido por persona, los costos respectivos son **_\$ 2.0_**, **_\$ 2.5_** y **_\$ 3.0_**. Se requiere determinar
    el costo total y por persona del viaje considerando que cuando se realiza el presupuesto debe haber un mínimo de 20
