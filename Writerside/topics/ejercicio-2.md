@@ -1,58 +1,41 @@
-# Ejercicio 2: Condiciones en Java
+# Ejercicio 2: La compilación en Java
 
 ## Descripción
 
-Crear laa implementación en Java de los siguientes ejercicios que involucren el uso de condiciones (if, if-else y
-else-if):
+Para este ejercicio, debes realizar una infografía que explique el proceso de compilación en Java. La infografía debe
+incluir los siguientes elementos:
 
-1. **Número Par o Impar**: Escribir un programa que solicite al usuario un número entero y determine si es par o impar.
-    * Recuerda que un número es par si es divisible por 2 (es decir, el resto de la división por 2 es 0).
-2. **Mayor de Tres Números**: Escribir un programa que solicite al usuario tres números y determine cuál es el mayor.
-    * Considera el caso en que dos o más números pueden ser iguales.
-3. **Calificación Escolar**: Escribir un programa que solicite al usuario una calificación numérica (0-100) y determine
-   la calificación en letras según la siguiente escala:
-    * 90-100: A
-    * 80-89: B
-    * 70-79: C
-    * 60-69: D
-    * 0-59: F
+1. **Código fuente**: Explica qué es el código fuente en Java y cómo se escribe.
+2. **Compilador**: Describe el papel del compilador de Java (javac) en la conversión del código fuente a bytecode.
+3. **Bytecode**: Explica qué es el bytecode y cómo es independiente de la plataforma.
+4. **Máquina Virtual de Java (JVM)**: Describe cómo la JVM interpreta el bytecode y lo ejecuta en diferentes
+   plataformas.
+5. **Proceso de ejecución**: Detalla el proceso completo desde la escritura del código fuente hasta la ejecución del
+   programa.
+6. **Ventajas de la compilación en Java**: Menciona las ventajas de este proceso, como la portabilidad y la seguridad.
 
 ## Requisitos
 
-* Utilizar estructuras condicionales (if, if-else, else-if) para resolver los problemas.
-* Recibir la entrada del usuario a través de la consola.
-* Imprimir los resultados en la consola.
+* La infografía debe ser visualmente atractiva y fácil de entender.
+* Debe incluir gráficos, diagramas y texto explicativo.
+* Puedes utilizar herramientas de diseño gráfico como Canva, Piktochart, o cualquier otra de tu preferencia.
 
 ## Entregable
 
-En un solo documento PDF, incluir:
+En un solo archivo PDF, incluye lo siguiente:
 
-1. Portada con los siguientes datos:
-    * Nombre del curso.
-    * Nombre del profesor.
-    * Nombre de los integrantes del equipo.
-    * Fecha de entrega.
-2. Código fuente de los programas en Java.
-3. Capturas de pantalla mostrando la ejecución de cada programa con diferentes entradas.
-4. Breve explicación de cómo funciona cada programa y las decisiones tomadas en la implementación.
+1. Portada con tus datos de identificación (nombre, fecha, curso).
+2. La infografía que explique el proceso de compilación en Java.
 
-> **Nota**: Asegúrate de probar cada programa con diferentes entradas para verificar que funcionan correctamente en
-> todos los casos.
-> {style="note"}
-
-> **Alumno que no aparezca en la portada no tendrá derecho a calificación.**
+> **Actividad entregada posterior a la fecha límite, será evaluada con una punción máxima de 70 puntos.**
 > {style="warning"}
 
-> **Actividades entregadas fuera de la fecha de entrega, serán evaluadas con una calificación máxima de 70.**
-> {style="warning"}
+## Criterios de evaluación
 
-## Criterios de Evaluación
-
-| Criterio                                   | Puntuación |
-|--------------------------------------------|------------|
-| Correcta implementación de las condiciones | 40%        |
-| Claridad y organización del código         | 20%        |
-| Uso adecuado de la entrada y salida        | 20%        |
-| Presentación del documento                 | 10%        |
-| Explicación de los programas               | 10%        |
-| **Total**                                  | **100%**   |
+| Criterio                                    | Puntuación |
+|---------------------------------------------|------------|
+| Claridad y precisión de la información      | 30%        |
+| Diseño visual y atractivo                   | 25%        |
+| Inclusión de todos los elementos requeridos | 25%        |
+| Originalidad y creatividad                  | 20%        |
+| **Total**                                   | **100%**   |    
