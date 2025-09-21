@@ -1,4 +1,4 @@
-# Ejercicio 3: Ejercicios líneales en Java
+# Ejercicio 3: Ejercicios linéales en Java
 
 ## Descripción
 
