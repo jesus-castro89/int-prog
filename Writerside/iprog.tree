@@ -35,6 +35,12 @@
         <toc-element topic="operaciones.md"/>
         <toc-element topic="output.md"/>
         <toc-element topic="input.md"/>
+        <toc-element topic="ide.md"/>
+    </toc-element>
+    <toc-element toc-title="Estructuras de control de flujo">
+        <toc-element topic="elementos-logicos.md"/>
+        <toc-element topic="if.md"/>
+        <toc-element topic="if-else.md"/>
     </toc-element>
     <toc-element toc-title="Ejemplos">
         <toc-element topic="ejemplo-1.md"/>
@@ -44,5 +50,6 @@
     </toc-element>
     <toc-element toc-title="Ejercicios">
         <toc-element topic="ejercicio-1.md"/>
+        <toc-element topic="ejercicio-2.md"/>
     </toc-element>
 </instance-profile>
