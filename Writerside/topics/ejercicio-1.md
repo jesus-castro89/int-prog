@@ -26,39 +26,39 @@ para cada uno de ellos.
            2. ESCRIBIR "Ingrese la cantidad de minutos de la llamada"
            3. LEER minutos
            4. SI minutos <= 5
-              ENTONCES
-              HACER total = minutos
-              EN OTRO CASO
-              SI minutos <= 8
-              ENTONCES
-              total = 5 + ((minuto - 5) * c2)
-              EN OTRO CASO
-              SI minutos <= 10
-              ENTONCES
-              total = 7.4 + ((minutos - 8) * c3)
-              EN OTRO CASO
-              total = 8.8 + ((minutos - 10) * c4)
+                ENTONCES
+                    HACER total = minutos
+                EN OTRO CASO
+                    SI minutos <= 8
+                        ENTONCES
+                            total = 5 + ((minuto - 5) * c2)
+                        EN OTRO CASO
+                            SI minutos <= 10
+                                ENTONCES
+                                    total = 7.4 + ((minutos - 8) * c3)
+                                EN OTRO CASO
+                                    total = 8.8 + ((minutos - 10) * c4)
            5. ESCRIBIR "La llamada fue en día hábil?"
            6. LEER esHabil
            7. SI esHabil
-              ENTONCES
-              INICIO
-              ESCRIBIR "La llamada fue en la mañana?"
-              LEER esMatutino
-              SI esMatutino
-              ENTONCES
-              total *= 1.15
-              EN OTRO CASO
-              total *= 1.10
-              FIN
-              EN OTRO CASO
-              INICIO
-              ESCRIBIR "La llamada fue en domingo?"
-              LEER esDomingo
-              SI esDomingo
-              ENTONCES
-              total *= 1.03
-              FIN
+                ENTONCES
+                    INICIO
+                        ESCRIBIR "La llamada fue en la mañana?"
+                        LEER esMatutino
+                        SI esMatutino
+                            ENTONCES
+                                total *= 1.15
+                            EN OTRO CASO
+                                total *= 1.10
+                    FIN
+                EN OTRO CASO
+                    INICIO
+                        ESCRIBIR "La llamada fue en domingo?"
+                        LEER esDomingo
+                        SI esDomingo
+                            ENTONCES
+                                total *= 1.03
+                    FIN
            8. ESCRIBIR "El total de tu llamada es de: ", total
            9. FIN
       ```
