@@ -32,6 +32,7 @@
     <toc-element toc-title="Programando en Java">
         <toc-element topic="ide.md"/>
         <toc-element topic="java-introduction.md"/>
+        <toc-element topic="comentarios.md"/>
         <toc-element topic="java-types.md"/>
         <toc-element topic="operaciones.md"/>
         <toc-element topic="output.md"/>

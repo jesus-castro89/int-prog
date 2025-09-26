@@ -48,38 +48,47 @@ import java.util.Scanner;
 
 // Definimos la clase principal
 public class AreaPerimetroHexagono {
+    
     // Definimos el método principal
     public static void main(String[] args) {
         // Declaración de variables
         double lado, area, perimetro;
+        
         // Declaración de la constante
         final double apotema = 6.0;
         // Crear un objeto Scanner para leer la entrada del usuario
         // Equivalente a: 1. INICIO
         Scanner scanner = new Scanner(System.in);
+        
         // Solicitar al usuario la longitud del lado del hexágono
         // Equivalente a: 2. ESCRIBIR "Ingrese la longitud del lado del hexágono:"
         System.out.print("Ingrese la longitud del lado del hexágono: ");
+        
         // Leer la longitud del lado ingresada por el usuario
         // Equivalente a: 3. LEER lado
         lado = scanner.nextDouble();
+        
         // Calcular el perímetro del hexágono
         // Equivalente a: 4. HACER perimetro = 6 * lado
         perimetro = 6 * lado;
+        
         // Calcular el área del hexágono
         // Equivalente a: 5. HACER area = (perimetro * apotema) / 2
         area = (perimetro * apotema) / 2;
+        
         // Mostrar el perímetro del hexágono
         // Equivalente a: 6. ESCRIBIR "El perímetro del hexágono es: ", perimetro
         System.out.printf("El perímetro del hexágono es: %.2f%n", perimetro);
+        
         // Mostrar el área del hexágono
         // Equivalente a: 7. ESCRIBIR "El área del hexágono es: ", area
         System.out.printf("El área del hexágono es: %.2f%n", area);
+        
         // Cerrar el objeto Scanner
-        scanner.close();
         // Equivalente a: 8. FIN
-    }
-}
+        scanner.close();
+    }// Recuerda cerrar la función main
+}// Recuerda cerrar la clase
 ```
 
 ## Notas
