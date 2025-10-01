@@ -47,6 +47,7 @@
         <toc-element topic="elementos-logicos.md"/>
         <toc-element topic="if.md"/>
         <toc-element topic="if-else.md"/>
+        <toc-element topic="switch.md"/>
     </toc-element>
     <toc-element toc-title="Ejemplos">
         <toc-element topic="ejemplo-1.md"/>
@@ -60,6 +61,6 @@
         <toc-element topic="ejercicio-1.md"/>
         <toc-element topic="ejercicio-2.md"/>
         <toc-element topic="ejercicio-3.md"/>
-        <toc-element hidden="true"  topic="ejercicio-4.md"/>
+        <toc-element topic="ejercicio-4.md"/>
     </toc-element>
 </instance-profile>
