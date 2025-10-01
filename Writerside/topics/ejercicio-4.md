@@ -12,7 +12,7 @@ múltiple:
 3. Asegúrate de que el programa sea claro y fácil de entender.
 4. Comenta tu código para explicar cada parte.
 
-### Clasificación de edades
+## 1. Clasificación de edades
 
 Escribe un programa que solicite al usuario su edad y clasifique a la persona en una de las siguientes categorías:
 
@@ -24,7 +24,7 @@ Escribe un programa que solicite al usuario su edad y clasifique a la persona en
 En caso de que la edad ingresada sea negativa, el programa debe mostrar un mensaje de error indicando que la edad no
 puede ser negativa.
 
-### Sistema presidencial
+## 2. Sistema presidencial
 
 El presidente de la república ha decidido estimular a todos los estudiantes de una universidad mediante la asignación de
 becas mensuales, para esto se tomarán en consideración los siguientes criterios:
@@ -46,7 +46,7 @@ Para alumnos menores de 18 años:
 El programa debe solicitar al usuario su edad y su promedio, y luego mostrar el monto de la beca que le corresponde o
 indicar que debe redactar una carta de compromiso si no cumple con los requisitos para recibir una beca.
 
-### Cosechas de frutas
+## 3. Cosechas de frutas
 
 Una empresa agrícola desea clasificar las cosechas de frutas según su tipo y calidad. Las frutas pueden ser manzanas,
 naranjas o plátanos, y la calidad puede ser alta, media o baja.
@@ -81,7 +81,7 @@ Precio por kg: $3
 Precio total: $30
 ```
 
-### La fabrica de papel
+## 4. La fabrica de papel
 
 Una fábrica de papel necesita un programa que ayude a clasificar los tipos de papel que produce según su grosor y
 tamaño. El programa debe solicitar al usuario el grosor del papel en micrómetros y el tamaño del papel (A4, A3, A2, A1,
@@ -111,7 +111,7 @@ Tamaño: A3
 Área: 0.1254 m²
 ```
 
-## La fabrica de pantalones
+## 5. La fabrica de pantalones
 
 Realice un algoritmo para resolver el siguiente problema: una fábrica de pantalones desea calcular cuál es el precio
 final de venta y cuánto ganará por los N pantalones que produzca con el corte de

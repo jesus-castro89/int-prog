@@ -1,9 +1,0 @@
-import java.util.Scanner;
-
-public class ConversionTemperatura {
-
-    public static void main(String[] args) {
-        // Declaramos el Scanner
-        Scanner input = new Scanner(System.in);
-    }
-}
