@@ -42,6 +42,7 @@
         <toc-element topic="java-25.md"/>
         <toc-element topic="main-25.md"/>
         <toc-element topic="class-io.md"/>
+        <toc-element topic="text-block.md"/>
     </toc-element>
     <toc-element toc-title="Estructuras de control de flujo">
         <toc-element topic="elementos-logicos.md"/>
