@@ -2,7 +2,10 @@ public class Ejemplo {
 
     void main(){
 
-        IO.println(Math.PI);
-        IO.println(Math.pow(2, 3));
+        int contador = 0;
+        do {
+            IO.println("Contador: " + contador);
+            contador++;
+        } while (contador < 5);
     }
 }
