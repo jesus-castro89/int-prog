@@ -1,0 +1,1 @@
+# La clausula `when` en Java 25

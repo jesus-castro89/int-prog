@@ -49,6 +49,7 @@
         <toc-element topic="if.md"/>
         <toc-element topic="if-else.md"/>
         <toc-element topic="switch.md"/>
+        <toc-element topic="when.md"/>
     </toc-element>
     <toc-element toc-title="Estructuras Repetitivas">
         <toc-element topic="while.md"/>

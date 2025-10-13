@@ -4,10 +4,12 @@ public class Cosecha {
 
         // Texto del primer menú
         final String frutas = """
+                =============================================
                 Seleccione el tipo de fruta:
                 1. Manzanas
                 2. Naranjas
                 3. Plátanos
+                =============================================
                 """;
         // Texto del segundo menú
         final String calidades = """
