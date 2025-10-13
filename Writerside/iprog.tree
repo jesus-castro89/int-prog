@@ -72,6 +72,8 @@
         <toc-element topic="ejemplo-9.md"/>
         <toc-element topic="ejemplo-10.md"/>
         <toc-element topic="ejemplo-11.md"/>
+        <toc-element topic="ejemplo-12.md"/>
+        <toc-element topic="ejemplo-13.md"/>
     </toc-element>
     <toc-element toc-title="Ejercicios">
         <toc-element topic="ejercicio-1.md"/>
