@@ -1,26 +1,23 @@
 public class Ejemplo1 {
 
     void main() {
-        IO.println("Registro de Asistentes al Evento");
-        int totalAsistentes = Integer.parseInt(IO.readln(
-                "Ingrese el número total de asistentes: "));
-        int sumaEdades = 0;
-        int edad;
-        String nombre;
-
-        for (int i = 1; i <= totalAsistentes; i++) {
-
-            nombre = IO.readln("Ingrese el nombre del asistente " + i + ": ");
-            edad = Integer.parseInt(IO.readln("Ingrese la edad de " + nombre + ": "));
-            while (edad <= 0) {
-
-                IO.println("Edad inválida. Por favor, ingrese una edad positiva.");
-                edad = Integer.parseInt(IO.readln("Ingrese la edad de " + nombre + ": "));
+        int[][] matriz = {
+                {1, 2, 3},
+                {4, 5, 6},
+                {7, 8, 9}
+        };
+        int sumaDiagonal = 0;
+        // Variables declaradas fuera del ciclo
+        // pueden ser usadas dentro y fuera del ciclo.
+        int fila, columna;
+        for (fila = 0;
+             fila < matriz.length; fila++) {
+            for (columna = 0;
+                 columna < matriz[fila].length; columna++) {
+                if (fila == columna) {
+                    sumaDiagonal += matriz[fila][columna];
+                }
             }
-            sumaEdades += edad;
         }
-        double edadPromedio = (double) sumaEdades / totalAsistentes;
-        IO.println("Total de asistentes: " + totalAsistentes);
-        IO.println("Edad promedio: " + edadPromedio);
     }
 }
