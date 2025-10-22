@@ -3,7 +3,7 @@
 ## Instrucciones
 
 1. Crea un programa en Java que satisfaga cada una de las condiciones planteadas.
-2. Utiliza estructuras de control como `for` según sea necesario.
+2. Utiliza arreglos unidimensionales o bidimensionales según sea necesario.
 3. Asegúrate de que el programa sea claro y fácil de entender.
 4. Comenta tu código para explicar cada parte.
 
