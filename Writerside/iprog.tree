@@ -61,6 +61,7 @@
         <toc-element topic="arreglos.md"/>
         <toc-element topic="matrix.md"/>
         <toc-element topic="irregular.md"/>
+        <toc-element topic="arrays.md"/>
     </toc-element>
     <toc-element topic="equals.md"/>
     <toc-element toc-title="Ejemplos">
@@ -78,6 +79,7 @@
         <toc-element topic="ejemplo-12.md"/>
         <toc-element topic="ejemplo-13.md"/>
         <toc-element topic="ejemplo-14.md"/>
+        <toc-element topic="ejemplo-15.md"/>
     </toc-element>
     <toc-element toc-title="Ejercicios">
         <toc-element topic="ejercicio-1.md"/>
@@ -87,5 +89,6 @@
         <toc-element topic="ejercicio-5.md"/>
         <toc-element topic="ejericicio-6.md"/>
         <toc-element topic="ejercicio-7.md"/>
+        <toc-element topic="ejercicio-8.md"/>
     </toc-element>
 </instance-profile>
