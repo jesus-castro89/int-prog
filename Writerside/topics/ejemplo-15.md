@@ -31,9 +31,15 @@ comunes:
 | `nextDouble()`       | Devuelve un número de punto flotante aleatorio entre 0.0 (inclusive) y 1.0 (exclusivo). |
 | `nextBoolean()`      | Devuelve un valor booleano aleatorio (true o false).                                    |
 
-## Ejemplo de uso
+## Ejemplos de uso
+
+### Ejemplo básico
 
 ![e15.png](e15.png){style="block"}
+
+### Ejemplo Avanzado
+
+![e15_2.png](e15_2.png){style="block"}
 
 ## Explicación del código
 
