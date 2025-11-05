@@ -91,4 +91,8 @@
         <toc-element topic="ejercicio-7.md"/>
         <toc-element topic="ejercicio-8.md"/>
     </toc-element>
+    <toc-element toc-title="Proyectos">
+        <toc-element topic="proyecto-1.md"/>
+        <toc-element topic="proyecto-2.md"/>
+    </toc-element>
 </instance-profile>
