@@ -1,7 +1,7 @@
 # Ejercicio 8: El juego del ahorcado
 
 El juego del ahorcado es un clásico juego de adivinanza de palabras. En este ejercicio, crearás una versión simple del
-juego del ahorcado en Python. El programa seleccionará una palabra al azar de una lista predefinida y el jugador tendrá
+juego del ahorcado en Java. El programa seleccionará una palabra al azar de una lista predefinida y el jugador tendrá
 que adivinar la palabra letra por letra.
 
 ## Instrucciones
