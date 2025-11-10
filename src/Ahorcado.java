@@ -39,7 +39,7 @@ public class Ahorcado {
                             acierto = true;
                         }
                         if (palabraSecreta.charAt(i) == 'Á') {
-                            palabraAdivinada[i] = palabras[palabraIndex].charAt(i);
+                            palabraAdivinada[i] = 'Á';
                             acierto = true;
                         }
                     }
