@@ -1,0 +1,10 @@
+@startmindmap
+
+* Métodos o funciones
+++ Con retorno
++++ Con argumentos
++++ Sin argumentos
+-- Sin retorno
+--- Con argumentos
+--- Sin argumentos
+@endmindmap
